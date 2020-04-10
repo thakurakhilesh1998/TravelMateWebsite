@@ -1,4 +1,4 @@
- #Travel Mate Website 
+ ## Travel Mate Website 
 This is Travel Mate website built using the the front end web tools. It uses the Webpack tools. The wepack tool used to create single page websites. 
 The differnt goals of this project are:
 <ul>
@@ -60,7 +60,7 @@ There are three different APIs are used in this project.
   https://www.npmjs.com/package/file-loader<br>
  </li>
   </ul>
-##Jest Test
+## Jest Test
 The jest Test is used to test your programs at the run time .The command to install the Jest Install is:
 <br>
 npm install --save-dev jest<br>
