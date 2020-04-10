@@ -60,7 +60,7 @@ There are three different APIs are used in this project.
   https://www.npmjs.com/package/file-loader<br>
  </li>
   </ul>
-## Jest Test
+<h3>Jest Test</h3>
 The jest Test is used to test your programs at the run time .The command to install the Jest Install is:
 <br>
 npm install --save-dev jest<br>
