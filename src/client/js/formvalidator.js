@@ -1,8 +1,8 @@
+
+
 export function onCreate()
 {
-document.getElementById('submit').addEventListener('click',onCreateTrip);
-function onCreateTrip()
-{
+
     const place=document.getElementById('placetogo').value;
     const date=document.getElementById('dateid').value;
     if(place=='')
@@ -23,7 +23,6 @@ function onCreateTrip()
    else {
     callGeoNameApi(place,date);
    }
-}
 }
 function isDateValid(date1)
 {
@@ -151,3 +150,6 @@ const getPixaBayImages=async (url,key,getData)=>
     }
 }
 
+const submit=document.getElementById('submit');
+submit.addEventListener('click',onCreate);
+submit.addEventListener('onmousedown',onCreate);
