@@ -1,0 +1,49 @@
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    background-color: #040e27;
+    padding: 2rem 0 2rem 0;
+}
+@media screen and (max-width:900px)
+{
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color: #040e27;
+        padding: 2rem 0 2rem 0;
+    }   
+}
+.contact-list-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media screen and (max-width:900px)
+{
+    .contact-list-footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }   
+}
+.contact-list-footer li{
+    list-style-type: none;
+    margin-left: 1rem;
+}
+.about p
+{
+    color: white;
+    font-size: larger;
+    line-height: 2rem;
+}
