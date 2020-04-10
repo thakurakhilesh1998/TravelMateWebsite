@@ -34,7 +34,7 @@ There are three different APIs are used in this project.
   <i>https://pixabay.com/api/?key=</i><br>
   You have to register on the PixaBay API to get the API key and differnt end points you can target upon<br>  
 </ul>
-## Webpack Tool
+<h3> Webpack Tool </h3>
 <ul>
   <li>The step is to download the Webpack tool on your root folder.
   The command to domload the webpack tool is<br>
